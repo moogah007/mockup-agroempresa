@@ -1,0 +1,155 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * product_family
+#
+# Translators:
+# OCA Transbot <transbot@odoo-community.org>, 2016
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 10.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-07-29 02:55+0000\n"
+"PO-Revision-Date: 2019-02-08 13:50+0000\n"
+"Last-Translator: Marta Vázquez Rodríguez <vazrodmar@gmail.com>\n"
+"Language-Team: Spanish (https://www.transifex.com/oca/teams/23907/es/)\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.4\n"
+
+#. module: product_family
+#: model:ir.actions.act_window,name:product_family.action_product_family
+#: model:ir.model.fields,field_description:product_family.field_account_invoice_report__product_family_id
+#: model:ir.model.fields,field_description:product_family.field_product_product__product_family_id
+#: model:ir.model.fields,field_description:product_family.field_product_template__product_family_id
+#: model:ir.model.fields,field_description:product_family.field_sale_report__product_family_id
+#: model_terms:ir.ui.view,arch_db:product_family.product_template_form_family_add
+#: model_terms:ir.ui.view,arch_db:product_family.view_account_invoice_report_search
+#: model_terms:ir.ui.view,arch_db:product_family.view_order_product_search
+#: model_terms:ir.ui.view,arch_db:product_family.view_product_template_search_family
+msgid "family"
+msgstr "Marca"
+
+#. module: product_family
+#: model:ir.model.fields,field_description:product_family.field_product_family__name
+#: model_terms:ir.ui.view,arch_db:product_family.view_product_family_form
+msgid "family Name"
+msgstr "Nombre de la familia"
+
+#. module: product_family
+#: model:ir.actions.act_window,name:product_family.action_open_family_products
+#: model:ir.model.fields,field_description:product_family.field_product_family__product_ids
+msgid "family Products"
+msgstr "Productos de la familia"
+
+#. module: product_family
+#: model:ir.model.fields,field_description:product_family.field_product_family__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: product_family
+#: model:ir.model.fields,field_description:product_family.field_product_family__create_date
+msgid "Created on"
+msgstr "Creado el"
+
+#. module: product_family
+#: model:ir.model.fields,field_description:product_family.field_product_family__description
+#: model_terms:ir.ui.view,arch_db:product_family.view_product_family_form
+msgid "Description"
+msgstr "Descripción"
+
+#. module: product_family
+#: model:ir.model.fields,field_description:product_family.field_product_family__display_name
+msgid "Display Name"
+msgstr "Nombre mostrado"
+
+#. module: product_family
+#: model:ir.model.fields,field_description:product_family.field_product_family__id
+msgid "ID"
+msgstr "ID"
+
+#. module: product_family
+#: model:ir.model,name:product_family.model_account_invoice_report
+msgid "Invoices Statistics"
+msgstr "Estadísticas de facturas"
+
+#. module: product_family
+#: model:ir.model.fields,field_description:product_family.field_product_family____last_update
+msgid "Last Modified on"
+msgstr "Última modificación el"
+
+#. module: product_family
+#: model:ir.model.fields,field_description:product_family.field_product_family__write_uid
+msgid "Last Updated by"
+msgstr "Última actualización por"
+
+#. module: product_family
+#: model:ir.model.fields,field_description:product_family.field_product_family__write_date
+msgid "Last Updated on"
+msgstr "Última modificación el"
+
+#. module: product_family
+#: model_terms:ir.ui.view,arch_db:product_family.view_product_family_kanban
+msgid "Logo"
+msgstr "Logotipo"
+
+#. module: product_family
+#: model:ir.model.fields,field_description:product_family.field_product_family__logo
+msgid "Logo File"
+msgstr "Logotipo"
+
+#. module: product_family
+#: model:ir.model.fields,field_description:product_family.field_product_family__products_count
+msgid "Number of products"
+msgstr "Número de productos"
+
+#. module: product_family
+#: model:ir.model.fields,field_description:product_family.field_product_family__partner_id
+msgid "Partner"
+msgstr "Empresa"
+
+#. module: product_family
+#: model:ir.actions.act_window,name:product_family.action_open_single_product_family
+#: model:ir.model,name:product_family.model_product_family
+#: model_terms:ir.ui.view,arch_db:product_family.product_family_search_form_view
+msgid "Product family"
+msgstr "Familia de producto"
+
+#. module: product_family
+#: model:ir.ui.menu,name:product_family.menu_product_family
+msgid "Product familys"
+msgstr "Familias de producto"
+
+#. module: product_family
+#: model:ir.model,name:product_family.model_product_template
+msgid "Product Template"
+msgstr "Plantilla de producto"
+
+#. module: product_family
+#: model_terms:ir.ui.view,arch_db:product_family.view_product_family_form
+#: model_terms:ir.ui.view,arch_db:product_family.view_product_family_kanban
+msgid "Products"
+msgstr "Productos"
+
+#. module: product_family
+#: model:ir.model,name:product_family.model_sale_report
+msgid "Sales Analysis Report"
+msgstr "Análisis de Ventas"
+
+#. module: product_family
+#: model:ir.model.fields,help:product_family.field_product_product__product_family_id
+#: model:ir.model.fields,help:product_family.field_product_template__product_family_id
+msgid "Select a family for this product"
+msgstr "Seleccione una familia para este producto"
+
+#. module: product_family
+#: model:ir.model.fields,help:product_family.field_product_family__partner_id
+msgid "Select a partner for this family if any."
+msgstr "Seleccione una empresa para esta familia si la hay."
+
+#. module: product_family
+#: model_terms:ir.ui.view,arch_db:product_family.view_product_family_tree
+msgid "product.family"
+msgstr "product.family"
